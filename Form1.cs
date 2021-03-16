@@ -37,14 +37,14 @@ namespace DosGameLauncher
             lblLauncherVer.Text = "Launcher v" + VERSION;
         }
 
-        private void lblMini_Click(object sender, EventArgs e)
+        private void btnMini_Click(object sender, EventArgs e)
         {
-            this.WindowState = FormWindowState.Minimized; // Program mimimize
+            this.WindowState = FormWindowState.Minimized;
         }
 
-        private void lblClose_Click(object sender, EventArgs e)
+        private void btnClose_Click(object sender, EventArgs e)
         {
-            this.Close(); // Program close
+            this.Close();
         }
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
@@ -66,25 +66,44 @@ namespace DosGameLauncher
             lastPoint = new Point(e.X, e.Y);
         }
 
-        private void lblPlay_Click(object sender, EventArgs e)
+        private void btnPlay_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process gDoom = new System.Diagnostics.Process();
-            gDoom.StartInfo.FileName = "data\\dosbox\\DosBox.exe";
-            gDoom.StartInfo.Arguments = "data\\doom\\DOOM.exe";
-            gDoom.Start();
+
+            string gSelection = "NULL";
+
+            if (glistHunterFaves.Text == "Oregon Trail")
+            {
+                gSelection = "data\\oregontrail\\OREGON.exe";
+            }
+
+            if (gSelection != "NULL")
+            {
+                System.Diagnostics.Process game = new System.Diagnostics.Process();
+                game.StartInfo.FileName = "data\\dosbox\\DosBox.exe";
+                game.StartInfo.Arguments = gSelection;
+                game.Start();
+            }
+            else
+            {
+                MessageBox.Show("Please select a game from one of the dropdowns before hitting play!");
+            }
+            
         }
 
         private void btnForums_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://helheim.vikingtactical.wtf/"); // Open forums
+            System.Diagnostics.Process.Start("https://jh-laboratory.github.io/jhlabs/");
         }
 
 
         private void btndiscord_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("http://discord.gg/mu9zJCG"); // Open Helheim discord
+            System.Diagnostics.Process.Start("http://discord.gg/Jr8f5GbFmQ");
         }
 
+        private void asdf_Click(object sender, EventArgs e)
+        {
 
+        }
     }
 }

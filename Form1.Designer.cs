@@ -30,65 +30,70 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.lblPlay = new System.Windows.Forms.PictureBox();
-            this.lblMini = new System.Windows.Forms.PictureBox();
-            this.lblClose = new System.Windows.Forms.PictureBox();
+            this.btnPlay = new System.Windows.Forms.PictureBox();
+            this.btnMini = new System.Windows.Forms.PictureBox();
+            this.btnClose = new System.Windows.Forms.PictureBox();
             this.btndiscord = new System.Windows.Forms.PictureBox();
             this.btnForums = new System.Windows.Forms.PictureBox();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.lblLauncherVer = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.lblPlay)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lblMini)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lblClose)).BeginInit();
+            this.jhlLogo = new System.Windows.Forms.PictureBox();
+            this.lblCopyright = new System.Windows.Forms.Label();
+            this.glistHunterFaves = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.btnPlay)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnMini)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnClose)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btndiscord)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnForums)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.jhlLogo)).BeginInit();
             this.SuspendLayout();
             // 
-            // lblPlay
+            // btnPlay
             // 
-            this.lblPlay.BackColor = System.Drawing.Color.Transparent;
-            this.lblPlay.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblPlay.Image = ((System.Drawing.Image)(resources.GetObject("lblPlay.Image")));
-            this.lblPlay.Location = new System.Drawing.Point(827, 498);
-            this.lblPlay.Name = "lblPlay";
-            this.lblPlay.Size = new System.Drawing.Size(118, 34);
-            this.lblPlay.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.lblPlay.TabIndex = 0;
-            this.lblPlay.TabStop = false;
-            this.lblPlay.Click += new System.EventHandler(this.lblPlay_Click);
+            this.btnPlay.BackColor = System.Drawing.Color.Transparent;
+            this.btnPlay.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnPlay.Image = ((System.Drawing.Image)(resources.GetObject("btnPlay.Image")));
+            this.btnPlay.Location = new System.Drawing.Point(827, 498);
+            this.btnPlay.Name = "btnPlay";
+            this.btnPlay.Size = new System.Drawing.Size(118, 34);
+            this.btnPlay.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.btnPlay.TabIndex = 0;
+            this.btnPlay.TabStop = false;
+            this.btnPlay.Click += new System.EventHandler(this.btnPlay_Click);
             // 
-            // lblMini
+            // btnMini
             // 
-            this.lblMini.BackColor = System.Drawing.Color.Transparent;
-            this.lblMini.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblMini.Image = ((System.Drawing.Image)(resources.GetObject("lblMini.Image")));
-            this.lblMini.Location = new System.Drawing.Point(861, 12);
-            this.lblMini.Name = "lblMini";
-            this.lblMini.Size = new System.Drawing.Size(39, 38);
-            this.lblMini.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.lblMini.TabIndex = 1;
-            this.lblMini.TabStop = false;
-            this.lblMini.Click += new System.EventHandler(this.lblMini_Click);
+            this.btnMini.BackColor = System.Drawing.Color.Transparent;
+            this.btnMini.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMini.Image = ((System.Drawing.Image)(resources.GetObject("btnMini.Image")));
+            this.btnMini.Location = new System.Drawing.Point(861, 12);
+            this.btnMini.Name = "btnMini";
+            this.btnMini.Size = new System.Drawing.Size(39, 38);
+            this.btnMini.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.btnMini.TabIndex = 1;
+            this.btnMini.TabStop = false;
+            this.btnMini.Click += new System.EventHandler(this.btnMini_Click);
             // 
-            // lblClose
+            // btnClose
             // 
-            this.lblClose.BackColor = System.Drawing.Color.Transparent;
-            this.lblClose.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblClose.Image = ((System.Drawing.Image)(resources.GetObject("lblClose.Image")));
-            this.lblClose.Location = new System.Drawing.Point(906, 12);
-            this.lblClose.Name = "lblClose";
-            this.lblClose.Size = new System.Drawing.Size(39, 38);
-            this.lblClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.lblClose.TabIndex = 2;
-            this.lblClose.TabStop = false;
-            this.lblClose.Click += new System.EventHandler(this.lblClose_Click);
+            this.btnClose.BackColor = System.Drawing.Color.Transparent;
+            this.btnClose.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnClose.Image = ((System.Drawing.Image)(resources.GetObject("btnClose.Image")));
+            this.btnClose.Location = new System.Drawing.Point(906, 12);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(39, 38);
+            this.btnClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.btnClose.TabIndex = 2;
+            this.btnClose.TabStop = false;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // btndiscord
             // 
             this.btndiscord.BackColor = System.Drawing.Color.Transparent;
             this.btndiscord.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btndiscord.Image = ((System.Drawing.Image)(resources.GetObject("btndiscord.Image")));
-            this.btndiscord.Location = new System.Drawing.Point(152, 498);
+            this.btndiscord.Location = new System.Drawing.Point(162, 498);
             this.btndiscord.Name = "btndiscord";
             this.btndiscord.Size = new System.Drawing.Size(33, 32);
             this.btndiscord.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -121,6 +126,59 @@
             this.lblLauncherVer.TabIndex = 17;
             this.lblLauncherVer.Text = "Launcher v.0.0.0";
             // 
+            // jhlLogo
+            // 
+            this.jhlLogo.BackColor = System.Drawing.Color.Transparent;
+            this.jhlLogo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("jhlLogo.BackgroundImage")));
+            this.jhlLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.jhlLogo.Location = new System.Drawing.Point(-19, 12);
+            this.jhlLogo.Name = "jhlLogo";
+            this.jhlLogo.Size = new System.Drawing.Size(100, 50);
+            this.jhlLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.jhlLogo.TabIndex = 18;
+            this.jhlLogo.TabStop = false;
+            // 
+            // lblCopyright
+            // 
+            this.lblCopyright.AutoSize = true;
+            this.lblCopyright.BackColor = System.Drawing.Color.Transparent;
+            this.lblCopyright.Font = new System.Drawing.Font("Glass Gauge", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCopyright.Location = new System.Drawing.Point(12, 466);
+            this.lblCopyright.Name = "lblCopyright";
+            this.lblCopyright.Size = new System.Drawing.Size(183, 20);
+            this.lblCopyright.TabIndex = 19;
+            this.lblCopyright.Text = "Copyright JHLabs, 2021";
+            this.lblCopyright.Click += new System.EventHandler(this.asdf_Click);
+            // 
+            // glistHunterFaves
+            // 
+            this.glistHunterFaves.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(158)))), ((int)(((byte)(12)))));
+            this.glistHunterFaves.Font = new System.Drawing.Font("Glass Gauge", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.glistHunterFaves.FormattingEnabled = true;
+            this.glistHunterFaves.Items.AddRange(new object[] {
+            "Wolfenstein3D",
+            "DOOM",
+            "Transport Tycoon Deluxe",
+            "SimCity",
+            "Oregon Trail",
+            "The Elder Scrolls: Arena",
+            "Tetris"});
+            this.glistHunterFaves.Location = new System.Drawing.Point(47, 240);
+            this.glistHunterFaves.Name = "glistHunterFaves";
+            this.glistHunterFaves.Size = new System.Drawing.Size(157, 24);
+            this.glistHunterFaves.TabIndex = 20;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Glass Gauge", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(43, 199);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(161, 24);
+            this.label1.TabIndex = 21;
+            this.label1.Text = "Hunter\'s Favorites";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -128,12 +186,16 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(955, 542);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.glistHunterFaves);
+            this.Controls.Add(this.lblCopyright);
+            this.Controls.Add(this.jhlLogo);
             this.Controls.Add(this.lblLauncherVer);
             this.Controls.Add(this.btnForums);
             this.Controls.Add(this.btndiscord);
-            this.Controls.Add(this.lblClose);
-            this.Controls.Add(this.lblMini);
-            this.Controls.Add(this.lblPlay);
+            this.Controls.Add(this.btnClose);
+            this.Controls.Add(this.btnMini);
+            this.Controls.Add(this.btnPlay);
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
@@ -143,11 +205,12 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseMove);
-            ((System.ComponentModel.ISupportInitialize)(this.lblPlay)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lblMini)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lblClose)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnPlay)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnMini)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnClose)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btndiscord)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnForums)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.jhlLogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -155,13 +218,17 @@
 
         #endregion
 
-        private System.Windows.Forms.PictureBox lblPlay;
-        private System.Windows.Forms.PictureBox lblMini;
-        private System.Windows.Forms.PictureBox lblClose;
+        private System.Windows.Forms.PictureBox btnPlay;
+        private System.Windows.Forms.PictureBox btnMini;
+        private System.Windows.Forms.PictureBox btnClose;
         private System.Windows.Forms.PictureBox btndiscord;
         private System.Windows.Forms.PictureBox btnForums;
         private System.Windows.Forms.ToolTip toolTip1;
         private System.Windows.Forms.Label lblLauncherVer;
+        private System.Windows.Forms.PictureBox jhlLogo;
+        private System.Windows.Forms.Label lblCopyright;
+        private System.Windows.Forms.ComboBox glistHunterFaves;
+        private System.Windows.Forms.Label label1;
     }
 }
 
