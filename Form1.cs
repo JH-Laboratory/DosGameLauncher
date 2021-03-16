@@ -71,10 +71,41 @@ namespace DosGameLauncher
 
             string gSelection = "NULL";
 
-            if (glistHunterFaves.Text == "Oregon Trail")
+            if (glistHunterFaves.Text == "Wolfenstein3D")
+            {
+                gSelection = "data\\WOLF3D\\WOLF3D.exe";
+            }
+
+            else if (glistHunterFaves.Text == "DOOM")
+            {
+                gSelection = "data\\doom\\DOOM.exe";
+            }
+
+            else if (glistHunterFaves.Text == "Transport Tycoon Deluxe")
+            {
+                gSelection = "data\\ttd\\TYCOON.exe";
+            }
+
+            else if (glistHunterFaves.Text == "SimCity")
+            {
+                gSelection = "data\\simcity\\SIMCITY.exe";
+            }
+
+            else if (glistHunterFaves.Text == "Oregon Trail")
             {
                 gSelection = "data\\oregontrail\\OREGON.exe";
             }
+
+            else if (glistHunterFaves.Text == "The Elder Scrolls: Arena")
+            {
+                gSelection = "data\\arena\\ARENA.bat";
+            }
+
+            else if (glistHunterFaves.Text == "Tetris")
+            {
+                gSelection = "data\\tetris\\TETRIS.bat";
+            }
+
 
             if (gSelection != "NULL")
             {
