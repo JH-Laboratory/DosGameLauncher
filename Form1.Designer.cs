@@ -166,7 +166,8 @@
             "The Elder Scrolls: Arena",
             "Civilization",
             "Tetris",
-            "Quake"});
+            "Quake",
+            "C&C Red Alert"});
             this.glistHunterFaves.Location = new System.Drawing.Point(47, 240);
             this.glistHunterFaves.Name = "glistHunterFaves";
             this.glistHunterFaves.Size = new System.Drawing.Size(157, 24);
@@ -196,8 +197,7 @@
             "SimAnt",
             "Warcraft",
             "Oregon Trail: Deluxe",
-            "Daggerfall",
-            "Xcom- UFO Enemy Unknown"});
+            "Daggerfall"});
             this.glistOther.Location = new System.Drawing.Point(741, 240);
             this.glistOther.Name = "glistOther";
             this.glistOther.Size = new System.Drawing.Size(187, 24);

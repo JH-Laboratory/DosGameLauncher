@@ -117,6 +117,11 @@ namespace DosGameLauncher
                 gSelection = "data\\quake\\quake.exe";
             }
 
+            else if (glistHunterFaves.Text == "C&C Red Alert")
+            {
+                gSelection = "data\\CC-RedAlert\\RA.exe";
+            }
+
             // Other games list
             else if (glistOther.Text == "Battlechess")
             {
@@ -151,11 +156,6 @@ namespace DosGameLauncher
             else if (glistOther.Text == "Daggerfall")
             {
                 gSelection = "-conf data\\DAGGER\\run_daggerfall.conf";
-            }
-
-            else if (glistOther.Text == "Xcom- UFO Enemy Unknown")
-            {
-                gSelection = "data\\xcom\\install.exe";
             }
 
             if (gSelection != "NULL")
