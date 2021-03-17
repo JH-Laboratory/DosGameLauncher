@@ -96,6 +96,11 @@ namespace DosGameLauncher
                 gSelection = "data\\oregontrail\\OREGON.exe";
             }
 
+            else if (glistHunterFaves.Text == "Civilization")
+            {
+                gSelection = "data\\civ\\CIV.exe";
+            }
+
             else if (glistHunterFaves.Text == "The Elder Scrolls: Arena")
             {
                 gSelection = "data\\arena\\ARENA.bat";
@@ -106,6 +111,40 @@ namespace DosGameLauncher
                 gSelection = "data\\tetris\\TETRIS.bat";
             }
 
+            else if (glistOther.Text == "Battlechess")
+            {
+                gSelection = "data\\battlechess\\CHESS.exe";
+            }
+
+            else if (glistOther.Text == "The Incredible Machine")
+            {
+                gSelection = "data\\incrediblemachine\\TIM.exe";
+            }
+
+            else if (glistOther.Text == "SimFarm")
+            {
+                gSelection = "data\\simfarm\\SIMFARM.exe";
+            }
+
+            else if (glistOther.Text == "SimAnt")
+            {
+                gSelection = "data\\simant\\SIMANT.exe";
+            }
+
+            else if (glistOther.Text == "Warcraft")
+            {
+                gSelection = "data\\warcraft\\WAR.exe";
+            }
+
+            else if (glistOther.Text == "Oregon Trail: Deluxe")
+            {
+                gSelection = "data\\oregontrail-deluxe\\OREGON.EXE";
+            }
+
+            else if (glistOther.Text == "Daggerfall")
+            {
+                gSelection = "-conf data\\DAGGER\\run_daggerfall.conf";
+            }
 
             if (gSelection != "NULL")
             {
@@ -130,11 +169,6 @@ namespace DosGameLauncher
         private void btndiscord_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start("http://discord.gg/Jr8f5GbFmQ");
-        }
-
-        private void asdf_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

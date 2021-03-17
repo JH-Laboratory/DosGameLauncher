@@ -40,7 +40,9 @@
             this.jhlLogo = new System.Windows.Forms.PictureBox();
             this.lblCopyright = new System.Windows.Forms.Label();
             this.glistHunterFaves = new System.Windows.Forms.ComboBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lbl_gamelist1 = new System.Windows.Forms.Label();
+            this.glistOther = new System.Windows.Forms.ComboBox();
+            this.lbl_gamelist2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.btnPlay)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMini)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnClose)).BeginInit();
@@ -148,7 +150,6 @@
             this.lblCopyright.Size = new System.Drawing.Size(183, 20);
             this.lblCopyright.TabIndex = 19;
             this.lblCopyright.Text = "Copyright JHLabs, 2021";
-            this.lblCopyright.Click += new System.EventHandler(this.asdf_Click);
             // 
             // glistHunterFaves
             // 
@@ -156,28 +157,60 @@
             this.glistHunterFaves.Font = new System.Drawing.Font("Glass Gauge", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.glistHunterFaves.FormattingEnabled = true;
             this.glistHunterFaves.Items.AddRange(new object[] {
+            "⠀",
             "Wolfenstein3D",
             "DOOM",
             "Transport Tycoon Deluxe",
             "SimCity",
             "Oregon Trail",
             "The Elder Scrolls: Arena",
+            "Civilization",
             "Tetris"});
             this.glistHunterFaves.Location = new System.Drawing.Point(47, 240);
             this.glistHunterFaves.Name = "glistHunterFaves";
             this.glistHunterFaves.Size = new System.Drawing.Size(157, 24);
             this.glistHunterFaves.TabIndex = 20;
             // 
-            // label1
+            // lbl_gamelist1
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Glass Gauge", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(43, 199);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(161, 24);
-            this.label1.TabIndex = 21;
-            this.label1.Text = "Hunter\'s Favorites";
+            this.lbl_gamelist1.AutoSize = true;
+            this.lbl_gamelist1.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_gamelist1.Font = new System.Drawing.Font("Glass Gauge", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_gamelist1.Location = new System.Drawing.Point(43, 199);
+            this.lbl_gamelist1.Name = "lbl_gamelist1";
+            this.lbl_gamelist1.Size = new System.Drawing.Size(161, 24);
+            this.lbl_gamelist1.TabIndex = 21;
+            this.lbl_gamelist1.Text = "Hunter\'s Favorites";
+            // 
+            // glistOther
+            // 
+            this.glistOther.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(158)))), ((int)(((byte)(12)))));
+            this.glistOther.Font = new System.Drawing.Font("Glass Gauge", 9.75F, System.Drawing.FontStyle.Bold);
+            this.glistOther.FormattingEnabled = true;
+            this.glistOther.Items.AddRange(new object[] {
+            "⠀",
+            "Battlechess",
+            "The Incredible Machine",
+            "SimFarm",
+            "SimAnt",
+            "Warcraft",
+            "Oregon Trail: Deluxe",
+            "Daggerfall"});
+            this.glistOther.Location = new System.Drawing.Point(741, 240);
+            this.glistOther.Name = "glistOther";
+            this.glistOther.Size = new System.Drawing.Size(187, 24);
+            this.glistOther.TabIndex = 22;
+            // 
+            // lbl_gamelist2
+            // 
+            this.lbl_gamelist2.AutoSize = true;
+            this.lbl_gamelist2.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_gamelist2.Font = new System.Drawing.Font("Glass Gauge", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_gamelist2.Location = new System.Drawing.Point(737, 199);
+            this.lbl_gamelist2.Name = "lbl_gamelist2";
+            this.lbl_gamelist2.Size = new System.Drawing.Size(191, 24);
+            this.lbl_gamelist2.TabIndex = 23;
+            this.lbl_gamelist2.Text = "All the other goodies";
             // 
             // Form1
             // 
@@ -186,7 +219,9 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(955, 542);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lbl_gamelist2);
+            this.Controls.Add(this.glistOther);
+            this.Controls.Add(this.lbl_gamelist1);
             this.Controls.Add(this.glistHunterFaves);
             this.Controls.Add(this.lblCopyright);
             this.Controls.Add(this.jhlLogo);
@@ -228,7 +263,9 @@
         private System.Windows.Forms.PictureBox jhlLogo;
         private System.Windows.Forms.Label lblCopyright;
         private System.Windows.Forms.ComboBox glistHunterFaves;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lbl_gamelist1;
+        private System.Windows.Forms.ComboBox glistOther;
+        private System.Windows.Forms.Label lbl_gamelist2;
     }
 }
 
