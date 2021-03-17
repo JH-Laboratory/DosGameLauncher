@@ -71,6 +71,7 @@ namespace DosGameLauncher
 
             string gSelection = "NULL";
 
+            //Hunter's Faves list:
             if (glistHunterFaves.Text == "Wolfenstein3D")
             {
                 gSelection = "data\\WOLF3D\\WOLF3D.exe";
@@ -111,6 +112,12 @@ namespace DosGameLauncher
                 gSelection = "data\\tetris\\TETRIS.bat";
             }
 
+            else if (glistHunterFaves.Text == "Quake")
+            {
+                gSelection = "data\\quake\\quake.exe";
+            }
+
+            // Other games list
             else if (glistOther.Text == "Battlechess")
             {
                 gSelection = "data\\battlechess\\CHESS.exe";

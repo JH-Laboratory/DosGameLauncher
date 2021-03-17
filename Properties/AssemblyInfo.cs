@@ -1,17 +1,18 @@
-﻿using System.Reflection;
+﻿using System.Resources;
+using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // Bir bütünleştirilmiş koda ilişkin Genel Bilgiler aşağıdaki öznitelikler kümesiyle
 // denetlenir. Bütünleştirilmiş kod ile ilişkili bilgileri değiştirmek için
 // bu öznitelik değerlerini değiştirin.
-[assembly: AssemblyTitle("HelheimRP - Launcher")]
-[assembly: AssemblyDescription("Launcher for HelheimRP Roleplay server")]
+[assembly: AssemblyTitle("DOS Game Launcher")]
+[assembly: AssemblyDescription("Easy launcher for your favorite MS-DOS games!")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("vikingtactical.wtf")]
-[assembly: AssemblyProduct("HelheimRP - Launcherr")]
-[assembly: AssemblyCopyright("Copyright VikingTactical ©  2020")]
-[assembly: AssemblyTrademark("vikingtactical.wtf")]
+[assembly: AssemblyCompany("JHLabs")]
+[assembly: AssemblyProduct("DOS Game Launcher")]
+[assembly: AssemblyCopyright("Copyright JHLabs ©  2021")]
+[assembly: AssemblyTrademark("JH Industries")]
 [assembly: AssemblyCulture("")]
 
 // ComVisible özniteliğinin false olarak ayarlanması bu bütünleştirilmiş koddaki türleri
@@ -32,5 +33,7 @@ using System.Runtime.InteropServices;
 // Tüm değerleri belirtebilir veya varsayılan Derleme ve Düzeltme Numaralarını kullanmak için
 // aşağıda gösterildiği gibi '*' kullanabilirsiniz:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.1.1.0")]
-[assembly: AssemblyFileVersion("1.1.1.0")]
+[assembly: AssemblyVersion("1.0.0.0")]
+[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: NeutralResourcesLanguage("en")]
+

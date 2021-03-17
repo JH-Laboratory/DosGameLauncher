@@ -165,7 +165,8 @@
             "Oregon Trail",
             "The Elder Scrolls: Arena",
             "Civilization",
-            "Tetris"});
+            "Tetris",
+            "Quake"});
             this.glistHunterFaves.Location = new System.Drawing.Point(47, 240);
             this.glistHunterFaves.Name = "glistHunterFaves";
             this.glistHunterFaves.Size = new System.Drawing.Size(157, 24);
@@ -235,7 +236,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "HelheimRP - Launcher";
+            this.Text = "DOS Game Launcher";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
