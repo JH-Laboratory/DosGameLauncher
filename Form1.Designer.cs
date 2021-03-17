@@ -196,7 +196,8 @@
             "SimAnt",
             "Warcraft",
             "Oregon Trail: Deluxe",
-            "Daggerfall"});
+            "Daggerfall",
+            "Xcom- UFO Enemy Unknown"});
             this.glistOther.Location = new System.Drawing.Point(741, 240);
             this.glistOther.Name = "glistOther";
             this.glistOther.Size = new System.Drawing.Size(187, 24);
