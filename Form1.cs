@@ -158,6 +158,11 @@ namespace DosGameLauncher
                 gSelection = "-conf data\\DAGGER\\run_daggerfall.conf";
             }
 
+            else if (glistOther.Text == "Prince of Persia")
+            {
+                gSelection = "data\\persia\\PRINCE.EXE";
+            }
+
             if (gSelection != "NULL")
             {
                 System.Diagnostics.Process game = new System.Diagnostics.Process();
