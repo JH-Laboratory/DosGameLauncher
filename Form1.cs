@@ -15,7 +15,7 @@ namespace DosGameLauncher
     {
         //Important Variables
         Point lastPoint;
-        string VERSION = "1.0.0";
+        string VERSION = "1.1.0";
 
         public Form1()
         {
