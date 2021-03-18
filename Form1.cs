@@ -36,21 +36,6 @@ namespace DosGameLauncher
             //String contentNews = readerNews.ReadToEnd();
 
 
-            WebClient client = new WebClient();
-            Stream getLatestVersion = client.OpenRead("https://raw.githubusercontent.com/JH-Laboratory/jhlabs/main/gizmos/2/latestversion.txt");
-            StreamReader readerVersion = new StreamReader(getLatestVersion);
-            String latestVersion = readerVersion.ReadToEnd();
-
-            if (VERSION != latestVersion)
-            {
-                lbl_latestVersion.Text = latestVersion;
-            }
-            else
-            {
-                lbl_latestVersion.Text = "";
-            }
-
-
             lblLauncherVer.Text = "Launcher v" + VERSION;
         }
 
