@@ -127,6 +127,11 @@ namespace DosGameLauncher
                 gSelection = "data\\lostvikings\\VIKINGS.EXE";
             }
 
+            else if (glistHunterFaves.Text == "Need For Speed")
+            {
+                gSelection = "data\\nfs\\install.bat";
+            }
+
             // Other games list
             else if (glistOther.Text == "Battlechess")
             {

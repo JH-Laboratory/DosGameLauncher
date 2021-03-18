@@ -168,7 +168,8 @@
             "Tetris",
             "Quake",
             "C&C Red Alert",
-            "The Lost Vikings"});
+            "The Lost Vikings",
+            "Need For Speed"});
             this.glistHunterFaves.Location = new System.Drawing.Point(47, 240);
             this.glistHunterFaves.Name = "glistHunterFaves";
             this.glistHunterFaves.Size = new System.Drawing.Size(157, 24);
