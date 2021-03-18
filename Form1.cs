@@ -84,6 +84,11 @@ namespace DosGameLauncher
                 gSelection = "data\\doom\\DOOM.exe";
             }
 
+            else if (glistHunterFaves.Text == "Duke Nukem 3D")
+            {
+                gSelection = "data\\duke3d\\DUKE3D.EXE";
+            }
+
             else if (glistHunterFaves.Text == "Transport Tycoon Deluxe")
             {
                 gSelection = "data\\ttd\\TYCOON.exe";

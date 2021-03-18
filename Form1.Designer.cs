@@ -165,6 +165,7 @@ namespace DosGameLauncher
             "C&C Red Alert",
             "Civilization",
             "DOOM",
+            "Duke Nukem 3D",
             "Microsoft Fight Sim 3",
             "Need For Speed",
             "Oregon Trail",
