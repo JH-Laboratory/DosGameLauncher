@@ -122,6 +122,11 @@ namespace DosGameLauncher
                 gSelection = "data\\CC-RedAlert\\RA.exe";
             }
 
+            else if (glistHunterFaves.Text == "The Lost Vikings")
+            {
+                gSelection = "data\\lostvikings\\VIKINGS.EXE";
+            }
+
             // Other games list
             else if (glistOther.Text == "Battlechess")
             {
@@ -162,6 +167,8 @@ namespace DosGameLauncher
             {
                 gSelection = "data\\persia\\PRINCE.EXE";
             }
+
+            
 
             if (gSelection != "NULL")
             {
