@@ -217,5 +217,12 @@ namespace DosGameLauncher
         {
             System.Diagnostics.Process.Start("http://discord.gg/Jr8f5GbFmQ");
         }
+
+        private void jhlLogo_Click(object sender, EventArgs e)
+        {
+            string logoMsgBox = "DOS Game Launcher|Lead Developer: Johnny Hunter|Copyright JHLabs 2021";
+            logoMsgBox = logoMsgBox.Replace("|", System.Environment.NewLine);
+            MessageBox.Show(logoMsgBox);
+        }
     }
 }

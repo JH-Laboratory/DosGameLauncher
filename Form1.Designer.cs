@@ -1,4 +1,6 @@
-﻿namespace DosGameLauncher
+﻿using System;
+
+namespace DosGameLauncher
 {
     partial class Form1
     {
@@ -139,6 +141,7 @@
             this.jhlLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.jhlLogo.TabIndex = 18;
             this.jhlLogo.TabStop = false;
+            this.jhlLogo.Click += new System.EventHandler(this.jhlLogo_Click);
             // 
             // lblCopyright
             // 
