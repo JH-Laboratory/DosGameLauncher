@@ -137,6 +137,11 @@ namespace DosGameLauncher
                 gSelection = "data\\mfs3\\Fs3.exe";
             }
 
+            else if (glistHunterFaves.Text == "Battlezone")
+            {
+                gSelection = "data\\battlezone\\ZONE.EXE";
+            }
+
             // Other games list
             else if (glistOther.Text == "Battlechess")
             {
@@ -181,6 +186,11 @@ namespace DosGameLauncher
             else if (glistOther.Text == "Battlehawks 1942")
             {
                 gSelection = "data\\battlehawks\\BH.EXE";
+            }
+
+            else if (glistOther.Text == "Sim Refinery")
+            {
+                gSelection = "data\\simrefinery\\SIMREF.EXE";
             }
 
             if (gSelection != "NULL")

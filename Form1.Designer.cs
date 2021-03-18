@@ -170,8 +170,9 @@
             "C&C Red Alert",
             "The Lost Vikings",
             "Need For Speed",
-            "Microsoft Fight Sim 3"});
-            this.glistHunterFaves.Location = new System.Drawing.Point(47, 240);
+            "Microsoft Fight Sim 3",
+            "Battlezone"});
+            this.glistHunterFaves.Location = new System.Drawing.Point(47, 226);
             this.glistHunterFaves.Name = "glistHunterFaves";
             this.glistHunterFaves.Size = new System.Drawing.Size(157, 24);
             this.glistHunterFaves.TabIndex = 20;
@@ -202,8 +203,9 @@
             "Oregon Trail: Deluxe",
             "Daggerfall",
             "Prince of Persia",
-            "Battlehawks 1942"});
-            this.glistOther.Location = new System.Drawing.Point(741, 240);
+            "Battlehawks 1942",
+            "Sim Refinery"});
+            this.glistOther.Location = new System.Drawing.Point(741, 226);
             this.glistOther.Name = "glistOther";
             this.glistOther.Size = new System.Drawing.Size(187, 24);
             this.glistOther.TabIndex = 22;
