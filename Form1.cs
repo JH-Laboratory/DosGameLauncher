@@ -132,6 +132,11 @@ namespace DosGameLauncher
                 gSelection = "data\\nfs\\install.bat";
             }
 
+            else if (glistHunterFaves.Text == "Microsoft Fight Sim 3")
+            {
+                gSelection = "data\\mfs3\\Fs3.exe";
+            }
+
             // Other games list
             else if (glistOther.Text == "Battlechess")
             {
