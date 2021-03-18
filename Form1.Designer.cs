@@ -161,20 +161,20 @@ namespace DosGameLauncher
             this.glistHunterFaves.FormattingEnabled = true;
             this.glistHunterFaves.Items.AddRange(new object[] {
             "⠀",
-            "Wolfenstein3D",
-            "DOOM",
-            "Transport Tycoon Deluxe",
-            "SimCity",
-            "Oregon Trail",
-            "The Elder Scrolls: Arena",
-            "Civilization",
-            "Tetris",
-            "Quake",
+            "Battlezone",
             "C&C Red Alert",
-            "The Lost Vikings",
-            "Need For Speed",
+            "Civilization",
+            "DOOM",
             "Microsoft Fight Sim 3",
-            "Battlezone"});
+            "Need For Speed",
+            "Oregon Trail",
+            "Quake",
+            "SimCity",
+            "Tetris",
+            "The Elder Scrolls: Arena",
+            "The Lost Vikings",
+            "Transport Tycoon Deluxe",
+            "Wolfenstein3D"});
             this.glistHunterFaves.Location = new System.Drawing.Point(47, 226);
             this.glistHunterFaves.Name = "glistHunterFaves";
             this.glistHunterFaves.Size = new System.Drawing.Size(157, 24);
@@ -199,15 +199,15 @@ namespace DosGameLauncher
             this.glistOther.Items.AddRange(new object[] {
             "⠀",
             "Battlechess",
-            "The Incredible Machine",
-            "SimFarm",
-            "SimAnt",
-            "Warcraft",
-            "Oregon Trail: Deluxe",
-            "Daggerfall",
-            "Prince of Persia",
             "Battlehawks 1942",
-            "Sim Refinery"});
+            "Daggerfall",
+            "Oregon Trail: Deluxe",
+            "Prince of Persia",
+            "Sim Refinery",
+            "SimAnt",
+            "SimFarm",
+            "The Incredible Machine",
+            "Warcraft"});
             this.glistOther.Location = new System.Drawing.Point(741, 226);
             this.glistOther.Name = "glistOther";
             this.glistOther.Size = new System.Drawing.Size(187, 24);
