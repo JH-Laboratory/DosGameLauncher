@@ -34,6 +34,23 @@ namespace DosGameLauncher
             //Stream streamNews = client.OpenRead("http://helheim.vikingtactical.wtf/serverinfo/news.txt");
             //StreamReader readerNews = new StreamReader(streamNews);
             //String contentNews = readerNews.ReadToEnd();
+
+
+            WebClient client = new WebClient();
+            Stream getLatestVersion = client.OpenRead("https://raw.githubusercontent.com/JH-Laboratory/jhlabs/main/gizmos/2/latestversion.txt");
+            StreamReader readerVersion = new StreamReader(getLatestVersion);
+            String latestVersion = readerVersion.ReadToEnd();
+
+            if (VERSION != latestVersion)
+            {
+                lbl_latestVersion.Text = latestVersion;
+            }
+            else
+            {
+                lbl_latestVersion.Text = "";
+            }
+
+
             lblLauncherVer.Text = "Launcher v" + VERSION;
         }
 
@@ -223,6 +240,11 @@ namespace DosGameLauncher
             string logoMsgBox = "DOS Game Launcher|Lead Developer: Johnny Hunter|Copyright JHLabs 2021";
             logoMsgBox = logoMsgBox.Replace("|", System.Environment.NewLine);
             MessageBox.Show(logoMsgBox);
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/JH-Laboratory/DosGameLauncher/releases");
         }
     }
 }
