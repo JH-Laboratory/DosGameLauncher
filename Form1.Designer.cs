@@ -45,7 +45,6 @@ namespace DosGameLauncher
             this.lbl_gamelist1 = new System.Windows.Forms.Label();
             this.glistOther = new System.Windows.Forms.ComboBox();
             this.lbl_gamelist2 = new System.Windows.Forms.Label();
-            this.lbl_latestVersion = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.btnPlay)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMini)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnClose)).BeginInit();
@@ -225,18 +224,6 @@ namespace DosGameLauncher
             this.lbl_gamelist2.TabIndex = 23;
             this.lbl_gamelist2.Text = "All the other goodies";
             // 
-            // lbl_latestVersion
-            // 
-            this.lbl_latestVersion.AutoSize = true;
-            this.lbl_latestVersion.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_latestVersion.Font = new System.Drawing.Font("Glass Gauge", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_latestVersion.Location = new System.Drawing.Point(339, 53);
-            this.lbl_latestVersion.Name = "lbl_latestVersion";
-            this.lbl_latestVersion.Size = new System.Drawing.Size(185, 24);
-            this.lbl_latestVersion.TabIndex = 24;
-            this.lbl_latestVersion.Text = "asdfasdfasdfasdfasdf";
-            this.lbl_latestVersion.Click += new System.EventHandler(this.label1_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -244,7 +231,6 @@ namespace DosGameLauncher
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(955, 542);
-            this.Controls.Add(this.lbl_latestVersion);
             this.Controls.Add(this.lbl_gamelist2);
             this.Controls.Add(this.glistOther);
             this.Controls.Add(this.lbl_gamelist1);
@@ -292,7 +278,6 @@ namespace DosGameLauncher
         private System.Windows.Forms.Label lbl_gamelist1;
         private System.Windows.Forms.ComboBox glistOther;
         private System.Windows.Forms.Label lbl_gamelist2;
-        private System.Windows.Forms.Label lbl_latestVersion;
     }
 }
 

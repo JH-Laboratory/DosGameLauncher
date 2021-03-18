@@ -227,9 +227,9 @@ namespace DosGameLauncher
             MessageBox.Show(logoMsgBox);
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-            System.Diagnostics.Process.Start("https://github.com/JH-Laboratory/DosGameLauncher/releases");
-        }
+        //private void label1_Click(object sender, EventArgs e)
+        //{
+        //    System.Diagnostics.Process.Start("https://github.com/JH-Laboratory/DosGameLauncher/releases");
+        //}
     }
 }
