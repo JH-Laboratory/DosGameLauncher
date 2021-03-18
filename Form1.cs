@@ -168,7 +168,10 @@ namespace DosGameLauncher
                 gSelection = "data\\persia\\PRINCE.EXE";
             }
 
-            
+            else if (glistOther.Text == "Battlehawks 1942")
+            {
+                gSelection = "data\\battlehawks\\BH.EXE";
+            }
 
             if (gSelection != "NULL")
             {

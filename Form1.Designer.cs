@@ -199,7 +199,8 @@
             "Warcraft",
             "Oregon Trail: Deluxe",
             "Daggerfall",
-            "Prince of Persia"});
+            "Prince of Persia",
+            "Battlehawks 1942"});
             this.glistOther.Location = new System.Drawing.Point(741, 240);
             this.glistOther.Name = "glistOther";
             this.glistOther.Size = new System.Drawing.Size(187, 24);
