@@ -144,6 +144,11 @@ namespace DosGameLauncher
                 gSelection = "data\\battlezone\\ZONE.EXE";
             }
 
+            else if (glistHunterFaves.Text == "Heimdall")
+            {
+                gSelection = "data\\heimdall\\heimdall.EXE";
+            }
+
             // Other games list
             else if (glistOther.Text == "Battlechess")
             {
@@ -244,7 +249,7 @@ namespace DosGameLauncher
             MessageBox.Show(helpMsg);
         }
 
-        private void btnDebug_Click(object sender, EventArgs e)
+        private void lblLauncherVer_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process game = new System.Diagnostics.Process();
             game.StartInfo.FileName = "data\\dosbox\\DosBox.exe";
