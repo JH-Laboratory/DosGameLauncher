@@ -15,7 +15,7 @@ namespace DosGameLauncher
     {
         //Important Variables
         Point lastPoint;
-        string VERSION = "1.1.0";
+        string VERSION = "1.1.1";
 
         public Form1()
         {
@@ -222,7 +222,7 @@ namespace DosGameLauncher
 
         private void jhlLogo_Click(object sender, EventArgs e)
         {
-            string logoMsgBox = "DOS Game Launcher|Lead Developer: Johnny Hunter|Copyright JHLabs 2021";
+            string logoMsgBox = "DOS Game Launcher|Developed by: Johnny Hunter|Copyright JHLabs 2021||https://github.com/JH-Laboratory/DosGameLauncher";
             logoMsgBox = logoMsgBox.Replace("|", System.Environment.NewLine);
             MessageBox.Show(logoMsgBox);
         }
