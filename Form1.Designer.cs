@@ -176,6 +176,7 @@ namespace DosGameLauncher
             "Oregon Trail",
             "Quake",
             "SimCity",
+            "SimCiity 2000",
             "Tetris",
             "The Elder Scrolls: Arena",
             "The Lost Vikings",
