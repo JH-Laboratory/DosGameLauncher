@@ -205,6 +205,7 @@ namespace DosGameLauncher
             "Battlechess",
             "Battlehawks 1942",
             "Daggerfall",
+            "Dungeons & Dragons",
             "Klax",
             "Oregon Trail: Deluxe",
             "Prince of Persia",

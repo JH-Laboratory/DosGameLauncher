@@ -200,6 +200,11 @@ namespace DosGameLauncher
                 gSelection = "data\\klax\\KLAX.EXE";
             }
 
+            else if (glistOther.Text == "Dungeons & Dragons")
+            {
+                gSelection = "data\\dnd\\dnd.exe";
+            }
+
             if (gSelection != "NULL")
             {
                 System.Diagnostics.Process game = new System.Diagnostics.Process();
