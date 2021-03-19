@@ -45,12 +45,14 @@ namespace DosGameLauncher
             this.lbl_gamelist1 = new System.Windows.Forms.Label();
             this.glistOther = new System.Windows.Forms.ComboBox();
             this.lbl_gamelist2 = new System.Windows.Forms.Label();
+            this.btnHelp = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.btnPlay)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMini)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnClose)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btndiscord)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnForums)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.jhlLogo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnHelp)).BeginInit();
             this.SuspendLayout();
             // 
             // btnPlay
@@ -97,7 +99,7 @@ namespace DosGameLauncher
             this.btndiscord.BackColor = System.Drawing.Color.Transparent;
             this.btndiscord.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btndiscord.Image = ((System.Drawing.Image)(resources.GetObject("btndiscord.Image")));
-            this.btndiscord.Location = new System.Drawing.Point(162, 498);
+            this.btndiscord.Location = new System.Drawing.Point(150, 500);
             this.btndiscord.Name = "btndiscord";
             this.btndiscord.Size = new System.Drawing.Size(33, 32);
             this.btndiscord.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -124,17 +126,18 @@ namespace DosGameLauncher
             this.lblLauncherVer.BackColor = System.Drawing.Color.Transparent;
             this.lblLauncherVer.Font = new System.Drawing.Font("Glass Gauge", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLauncherVer.ForeColor = System.Drawing.Color.Black;
-            this.lblLauncherVer.Location = new System.Drawing.Point(665, 505);
+            this.lblLauncherVer.Location = new System.Drawing.Point(736, 508);
             this.lblLauncherVer.Name = "lblLauncherVer";
-            this.lblLauncherVer.Size = new System.Drawing.Size(156, 25);
+            this.lblLauncherVer.Size = new System.Drawing.Size(67, 25);
             this.lblLauncherVer.TabIndex = 17;
-            this.lblLauncherVer.Text = "Launcher v.0.0.0";
+            this.lblLauncherVer.Text = "v.0.0.0";
             // 
             // jhlLogo
             // 
             this.jhlLogo.BackColor = System.Drawing.Color.Transparent;
             this.jhlLogo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("jhlLogo.BackgroundImage")));
             this.jhlLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.jhlLogo.Cursor = System.Windows.Forms.Cursors.Cross;
             this.jhlLogo.Location = new System.Drawing.Point(-19, 12);
             this.jhlLogo.Name = "jhlLogo";
             this.jhlLogo.Size = new System.Drawing.Size(100, 50);
@@ -224,6 +227,19 @@ namespace DosGameLauncher
             this.lbl_gamelist2.TabIndex = 23;
             this.lbl_gamelist2.Text = "All the other goodies";
             // 
+            // btnHelp
+            // 
+            this.btnHelp.BackColor = System.Drawing.Color.Transparent;
+            this.btnHelp.Cursor = System.Windows.Forms.Cursors.Help;
+            this.btnHelp.Image = ((System.Drawing.Image)(resources.GetObject("btnHelp.Image")));
+            this.btnHelp.Location = new System.Drawing.Point(201, 501);
+            this.btnHelp.Name = "btnHelp";
+            this.btnHelp.Size = new System.Drawing.Size(33, 32);
+            this.btnHelp.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.btnHelp.TabIndex = 24;
+            this.btnHelp.TabStop = false;
+            this.btnHelp.Click += new System.EventHandler(this.btnHelp_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -231,6 +247,7 @@ namespace DosGameLauncher
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(955, 542);
+            this.Controls.Add(this.btnHelp);
             this.Controls.Add(this.lbl_gamelist2);
             this.Controls.Add(this.glistOther);
             this.Controls.Add(this.lbl_gamelist1);
@@ -258,6 +275,7 @@ namespace DosGameLauncher
             ((System.ComponentModel.ISupportInitialize)(this.btndiscord)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnForums)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.jhlLogo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnHelp)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -278,6 +296,7 @@ namespace DosGameLauncher
         private System.Windows.Forms.Label lbl_gamelist1;
         private System.Windows.Forms.ComboBox glistOther;
         private System.Windows.Forms.Label lbl_gamelist2;
+        private System.Windows.Forms.PictureBox btnHelp;
     }
 }
 

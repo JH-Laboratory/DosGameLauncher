@@ -36,7 +36,7 @@ namespace DosGameLauncher
             //String contentNews = readerNews.ReadToEnd();
 
 
-            lblLauncherVer.Text = "Launcher v" + VERSION;
+            lblLauncherVer.Text = "v" + VERSION;
         }
 
         private void btnMini_Click(object sender, EventArgs e)
@@ -225,6 +225,13 @@ namespace DosGameLauncher
             string logoMsgBox = "DOS Game Launcher|Developed by: Johnny Hunter|Copyright JHLabs 2021||https://github.com/JH-Laboratory/DosGameLauncher";
             logoMsgBox = logoMsgBox.Replace("|", System.Environment.NewLine);
             MessageBox.Show(logoMsgBox);
+        }
+
+        private void btnHelp_Click(object sender, EventArgs e)
+        {
+            string helpMsg = "Choose a game from the dropdown menus, then press play!%You must only choose a game from ONE dropdown. If you choose one in one list on accident, change it to the empty entry, and%you may select a game from the other list.%%Global Controls while in-game:%Ctrl + F12 = Increase CPU speed (visible in DOSBox titlebar)%Ctrl + F11 = Decrease CPU speed (visible in DOSBox titlebar)";
+            helpMsg = helpMsg.Replace("%", System.Environment.NewLine);
+            MessageBox.Show(helpMsg);
         }
 
         //private void label1_Click(object sender, EventArgs e)
