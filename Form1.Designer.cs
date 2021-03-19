@@ -167,7 +167,6 @@ namespace DosGameLauncher
             "DOOM",
             "Duke Nukem 3D",
             "Microsoft Fight Sim 3",
-            "Need For Speed",
             "Oregon Trail",
             "Quake",
             "SimCity",

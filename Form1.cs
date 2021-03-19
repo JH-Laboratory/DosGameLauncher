@@ -134,11 +134,6 @@ namespace DosGameLauncher
                 gSelection = "data\\lostvikings\\VIKINGS.EXE";
             }
 
-            else if (glistHunterFaves.Text == "Need For Speed")
-            {
-                gSelection = "data\\nfs\\install.bat";
-            }
-
             else if (glistHunterFaves.Text == "Microsoft Fight Sim 3")
             {
                 gSelection = "data\\mfs3\\Fs3.exe";
