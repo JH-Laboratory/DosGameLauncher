@@ -182,9 +182,9 @@ namespace DosGameLauncher
             "The Lost Vikings",
             "Transport Tycoon Deluxe",
             "Wolfenstein3D"});
-            this.glistHunterFaves.Location = new System.Drawing.Point(47, 226);
+            this.glistHunterFaves.Location = new System.Drawing.Point(33, 226);
             this.glistHunterFaves.Name = "glistHunterFaves";
-            this.glistHunterFaves.Size = new System.Drawing.Size(157, 24);
+            this.glistHunterFaves.Size = new System.Drawing.Size(186, 24);
             this.glistHunterFaves.TabIndex = 20;
             // 
             // lbl_gamelist1
@@ -192,11 +192,11 @@ namespace DosGameLauncher
             this.lbl_gamelist1.AutoSize = true;
             this.lbl_gamelist1.BackColor = System.Drawing.Color.Transparent;
             this.lbl_gamelist1.Font = new System.Drawing.Font("Glass Gauge", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_gamelist1.Location = new System.Drawing.Point(43, 199);
+            this.lbl_gamelist1.Location = new System.Drawing.Point(29, 199);
             this.lbl_gamelist1.Name = "lbl_gamelist1";
-            this.lbl_gamelist1.Size = new System.Drawing.Size(161, 24);
+            this.lbl_gamelist1.Size = new System.Drawing.Size(190, 24);
             this.lbl_gamelist1.TabIndex = 21;
-            this.lbl_gamelist1.Text = "Hunter\'s Favorites";
+            this.lbl_gamelist1.Text = "Developer\'s Favorites";
             // 
             // glistOther
             // 
