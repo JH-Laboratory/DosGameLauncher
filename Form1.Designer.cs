@@ -169,7 +169,7 @@ namespace DosGameLauncher
             "Civilization",
             "DOOM",
             "Duke Nukem 3D",
-            "Microsoft Fight Sim 3",
+            "Microsoft Flight Sim 3",
             "Oregon Trail",
             "Quake",
             "SimCity",
