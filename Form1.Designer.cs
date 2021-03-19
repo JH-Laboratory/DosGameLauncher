@@ -171,6 +171,7 @@ namespace DosGameLauncher
             "DOOM",
             "Duke Nukem 3D",
             "Heimdall",
+            "Heimdall 2",
             "Microsoft Flight Sim 3",
             "Oregon Trail",
             "Quake",

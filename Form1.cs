@@ -149,6 +149,11 @@ namespace DosGameLauncher
                 gSelection = "data\\heimdall\\heimdall.EXE";
             }
 
+            else if (glistHunterFaves.Text == "Heimdall 2")
+            {
+                gSelection = "data\\heim2\\h2pc.exe";
+            }
+
             // Other games list
             else if (glistOther.Text == "Battlechess")
             {
