@@ -46,6 +46,7 @@ namespace DosGameLauncher
             this.glistOther = new System.Windows.Forms.ComboBox();
             this.lbl_gamelist2 = new System.Windows.Forms.Label();
             this.btnHelp = new System.Windows.Forms.PictureBox();
+            this.btnDebug = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.btnPlay)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMini)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnClose)).BeginInit();
@@ -204,6 +205,7 @@ namespace DosGameLauncher
             "Battlechess",
             "Battlehawks 1942",
             "Daggerfall",
+            "Klax",
             "Oregon Trail: Deluxe",
             "Prince of Persia",
             "Sim Refinery",
@@ -240,6 +242,16 @@ namespace DosGameLauncher
             this.btnHelp.TabStop = false;
             this.btnHelp.Click += new System.EventHandler(this.btnHelp_Click);
             // 
+            // btnDebug
+            // 
+            this.btnDebug.BackColor = System.Drawing.Color.Transparent;
+            this.btnDebug.Cursor = System.Windows.Forms.Cursors.No;
+            this.btnDebug.Location = new System.Drawing.Point(593, 322);
+            this.btnDebug.Name = "btnDebug";
+            this.btnDebug.Size = new System.Drawing.Size(22, 20);
+            this.btnDebug.TabIndex = 25;
+            this.btnDebug.Click += new System.EventHandler(this.btnDebug_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -247,6 +259,7 @@ namespace DosGameLauncher
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(955, 542);
+            this.Controls.Add(this.btnDebug);
             this.Controls.Add(this.btnHelp);
             this.Controls.Add(this.lbl_gamelist2);
             this.Controls.Add(this.glistOther);
@@ -297,6 +310,7 @@ namespace DosGameLauncher
         private System.Windows.Forms.ComboBox glistOther;
         private System.Windows.Forms.Label lbl_gamelist2;
         private System.Windows.Forms.PictureBox btnHelp;
+        private System.Windows.Forms.Label btnDebug;
     }
 }
 

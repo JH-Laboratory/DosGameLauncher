@@ -195,6 +195,11 @@ namespace DosGameLauncher
                 gSelection = "data\\simrefinery\\SIMREF.EXE";
             }
 
+            else if (glistOther.Text == "Klax")
+            {
+                gSelection = "data\\klax\\KLAX.EXE";
+            }
+
             if (gSelection != "NULL")
             {
                 System.Diagnostics.Process game = new System.Diagnostics.Process();
@@ -232,6 +237,14 @@ namespace DosGameLauncher
             string helpMsg = "Choose a game from the dropdown menus, then press play!%You must only choose a game from ONE dropdown. If you choose one in one list on accident, change it to the empty entry, and%you may select a game from the other list.%%Global Controls while in-game:%Ctrl + F12 = Increase CPU speed (visible in DOSBox titlebar)%Ctrl + F11 = Decrease CPU speed (visible in DOSBox titlebar)";
             helpMsg = helpMsg.Replace("%", System.Environment.NewLine);
             MessageBox.Show(helpMsg);
+        }
+
+        private void btnDebug_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process game = new System.Diagnostics.Process();
+            game.StartInfo.FileName = "data\\dosbox\\DosBox.exe";
+            game.StartInfo.Arguments = "-conf debug.conf";
+            game.Start();
         }
 
         //private void label1_Click(object sender, EventArgs e)
