@@ -185,7 +185,7 @@ namespace DosGameLauncher
                 gSelection = "data\\oregontrail-deluxe\\OREGON.EXE";
             }
 
-            else if (glistOther.Text == "Daggerfall")
+            else if (glistOther.Text == "The Elder Scrolls: Daggerfall")
             {
                 gSelection = "-conf data\\DAGGER\\run_daggerfall.conf";
             }
