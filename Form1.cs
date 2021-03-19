@@ -249,7 +249,7 @@ namespace DosGameLauncher
 
         private void btnHelp_Click(object sender, EventArgs e)
         {
-            string helpMsg = "Choose a game from the dropdown menus, then press play!%You must only choose a game from ONE dropdown. If you choose one in one list on accident, change it to the empty entry, and%you may select a game from the other list.%%Global Controls while in-game:%Ctrl + F12 = Increase CPU speed (visible in DOSBox titlebar)%Ctrl + F11 = Decrease CPU speed (visible in DOSBox titlebar)";
+            string helpMsg = "Choose a game from the dropdown menus, then press play!%You must only choose a game from ONE dropdown. If you choose one in one list on accident, change it to the empty entry, and%you may select a game from the other list.%%Global Controls while in-game:%Ctrl + F12 - Increase Emulation CPU speed (visible in DOSBox titlebar)%Ctrl + F11 = Decrease Emulation CPU speed (visible in DOSBox titlebar)%Al + Entter - Toggle fullscreen%Ctrl + Alt + F5 - Start/Stop screen recording%Ctrl + F5 - Take screenshot%Ctrl + F10 - Capture/Release the mouse";
             helpMsg = helpMsg.Replace("%", System.Environment.NewLine);
             MessageBox.Show(helpMsg);
         }
