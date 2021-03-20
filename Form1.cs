@@ -261,15 +261,9 @@ namespace DosGameLauncher
 
         private void lblLauncherVer_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process game = new System.Diagnostics.Process();
-            game.StartInfo.FileName = "data\\dosbox\\DosBox.exe";
-            game.StartInfo.Arguments = "-conf debug.conf";
-            game.Start();
+            DevToolsForm DevTools = new DevToolsForm();
+            DevTools.ShowDialog();
+            DevTools.TopMost = true;
         }
-
-        //private void label1_Click(object sender, EventArgs e)
-        //{
-        //    System.Diagnostics.Process.Start("https://github.com/JH-Laboratory/DosGameLauncher/releases");
-        //}
     }
 }

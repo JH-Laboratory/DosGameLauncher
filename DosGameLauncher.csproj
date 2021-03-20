@@ -69,6 +69,12 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DevTools.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DevTools.Designer.cs">
+      <DependentUpon>DevTools.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -91,6 +97,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="DevTools.resx">
+      <DependentUpon>DevTools.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
