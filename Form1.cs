@@ -134,7 +134,7 @@ namespace DosGameLauncher
                 gSelection = "data\\lostvikings\\VIKINGS.EXE";
             }
 
-            else if (glistHunterFaves.Text == "Microsoft Fight Sim 3")
+            else if (glistHunterFaves.Text == "Microsoft Flight Sim 3")
             {
                 gSelection = "data\\mfs3\\Fs3.exe";
             }
