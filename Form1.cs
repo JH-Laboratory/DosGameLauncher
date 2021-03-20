@@ -15,7 +15,7 @@ namespace DosGameLauncher
     {
         //Important Variables
         Point lastPoint;
-        string VERSION = "1.3.0";
+        string VERSION = "1.3.1";
 
         public Form1()
         {
@@ -29,13 +29,6 @@ namespace DosGameLauncher
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
-            //WebClient client = new WebClient();
-            //Stream streamNews = client.OpenRead("http://helheim.vikingtactical.wtf/serverinfo/news.txt");
-            //StreamReader readerNews = new StreamReader(streamNews);
-            //String contentNews = readerNews.ReadToEnd();
-
-
             lblLauncherVer.Text = "v" + VERSION;
         }
 
