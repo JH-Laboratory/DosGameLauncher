@@ -154,7 +154,7 @@ namespace DosGameLauncher
                 gSelection = "data\\heim2\\h2pc.exe";
             }
 
-            else if (glistHunterFaves.Text == "SimCiity 2000")
+            else if (glistHunterFaves.Text == "SimCity 2000")
             {
                 gSelection = "data\\simcity2000\\sc2000.exe";
             }
